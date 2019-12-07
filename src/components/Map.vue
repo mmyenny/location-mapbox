@@ -5,7 +5,19 @@
       :map-options="{
         style: 'mapbox://styles/ooeygooey/ck3gd9myv00nd1ckb6sgvh3d6',
         center: [-96, 37.8],
-        zoom: 3,
+        zoom: 3
+      }"
+      :nav-control="{
+        show: true,
+        position: 'top-right'
+      }"
+      :geolocate-control="{
+        show: true,
+        position: 'top-left',
+        options: {
+          trackUserLocation: true,
+          showUserLocation: true
+        }
       }"
     />
   </div>
